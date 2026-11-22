@@ -1,0 +1,27 @@
+name: gestopago_app
+description: "Comercio digital con GestoPago: la misma app para web y móvil."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  provider: ^6.1.2
+  flutter_secure_storage: ">=9.2.2 <11.0.0"
+  qr_flutter: ^4.1.0
+  intl: ">=0.19.0 <1.0.0"
+  uuid: ^4.5.1
+  url_launcher: ^6.3.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
